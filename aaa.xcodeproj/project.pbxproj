@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0409B12C1D1299740065794F /* dianzan_heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0409B12B1D1299740065794F /* dianzan_heart@2x.png */; };
 		0412CAAC1CEEC1F6005322FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412CAAB1CEEC1F6005322FE /* main.m */; };
 		0412CAAF1CEEC1F6005322FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412CAAE1CEEC1F6005322FE /* AppDelegate.m */; };
 		0412CAB21CEEC1F6005322FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0412CAB11CEEC1F6005322FE /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0409B12B1D1299740065794F /* dianzan_heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dianzan_heart@2x.png"; sourceTree = "<group>"; };
 		0412CAA71CEEC1F6005322FE /* aaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0412CAAB1CEEC1F6005322FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0412CAAD1CEEC1F6005322FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 		0412CAA91CEEC1F6005322FE /* aaa */ = {
 			isa = PBXGroup;
 			children = (
+				0409B12B1D1299740065794F /* dianzan_heart@2x.png */,
 				0412CAAD1CEEC1F6005322FE /* AppDelegate.h */,
 				0412CAAE1CEEC1F6005322FE /* AppDelegate.m */,
 				0412CAB01CEEC1F6005322FE /* ViewController.h */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0412CABA1CEEC1F6005322FE /* LaunchScreen.storyboard in Resources */,
+				0409B12C1D1299740065794F /* dianzan_heart@2x.png in Resources */,
 				0412CAB71CEEC1F6005322FE /* Assets.xcassets in Resources */,
 				0412CAB51CEEC1F6005322FE /* Main.storyboard in Resources */,
 			);
@@ -264,9 +268,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = aaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kdy.aaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yibao.start;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -275,9 +281,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = aaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kdy.aaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yibao.start;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -301,6 +309,7 @@
 				0412CAC01CEEC1F6005322FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
